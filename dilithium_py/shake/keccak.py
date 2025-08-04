@@ -5,7 +5,10 @@ from base64 import urlsafe_b64encode
 from binascii import hexlify
 from functools import partial
 
-import ulab.numpy as np
+try:
+  import ulab.numpy as np
+except:
+  import numpy as np
 
 
 _KECCAK_RHO = [
