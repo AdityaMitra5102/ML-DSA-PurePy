@@ -2,4 +2,8 @@
 
 Compatible with CircuitPy and MicroPy. The only dependency is `ulab numpy`.
 
-For test on normal PC replace the line `import ulab.numpy as np` to `import numpy as np` in keccak.py in shake.
+On normal PCs ensure numpy is installed. One CircuitPy/MicroPy, ensure ulab numpy is installed.
+
+Validated against OQS (Open Quantum Safe).
+
+Based on coruus/py-keccak, GiacomoPope/dilithium-py, ricmoo/pyaes and some magic. 
